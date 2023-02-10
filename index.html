@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <script src="https://kit.fontawesome.com/6ec4d0b159.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="cv.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+
+   
+
+    <nav id="nav">
+        <ul>
+          <a href="#inicio" class="nav-enlace">INICIO</a>
+          <a href="#sobremi" class="nav-enlace">SOBRE MI</a>
+          <a href="#resumen" class="nav-enlace" >RESUMEN</a>
+          <a href="#contacto" class="nav-enlace" >CONTACTO</a>
+        </ul>
+    </nav>
+
+    <div id="inicio">
+        <br> <br> <br>
+        <h1 class="presentacion">Yo soy Rodrigo Garcia </h1>
+        <h3 class="presentacion">Soy un estudiante de la licenciatura en Informatica en la rama de programacion en la UNAHUR,
+            con estudios previos de cursos en la UTN de armado y reparacion de PC. Mi objetivo como profesional es la búsqueda de desafíos en los cuales poner en
+            práctica mis conocimientos y adquirir nuevos, siempre orientando mi
+            labor hacia los objetivos que establezca la empresa, lo cual
+            enriquecerá mi desarrollo profesional y personal. Conoce mas de mi en esta pagina.
+        </h3>
+
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/rodrigo-tomas-garcia-celleghin/" target="_blank"  class="fa fa-linkedin"></a>
+            <a href="https://www.facebook.com/rodrigo.garcia.5458498/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/rodriicai_10/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </div>
+
+    <div id="sobremi">
+        <img id="fotocv" src="fotocv.jpg" width="250px"><br>
+        <i class="fa-solid fa-calendar-days"> 30/06/1996</i><br>
+        <i class="fa-solid fa-phone"> 11 5501-5719</i><br>
+        <i class="fa-solid fa-envelope"> rodrigogarciacelleghin@gmail.com</i><br>
+        <i class="fa-sharp fa-solid fa-map-location-dot"> Moron-GBA</i><br>        
+    </div>
+
+    <section id="resumen">
+        <article id="educacion">
+            <h2>EDUCACION</h2>
+            <i class="fa-solid fa-graduation-cap"> LICENCIATURA EN INFORMÁTICA</i>
+              <p>Unahur | 2022 - actualidad</p>                          
+            
+            <i class="fa-solid fa-graduation-cap"> TÉCNICO EN REPARACIÓN Y ARMADO DE PC</i>
+                <p>Universidad Tecnológica Nacional | 2021
+                    Egresado.</p>
+            
+            <i class="fa-solid fa-graduation-cap"> ARGENTINA PROGRAMA 4.0 </i>
+                <p>Primeros pasos en Front-end</p>
+           
+
+        </article>
+        <article id="trabajo">
+            <h2>TRABAJO</h2>
+            <i class="fa-solid fa-briefcase"> DISTRIBUIDORA DE PRODUCTOS ALIMENTICIOS VERÓNICA S.A.
+                Y LA POMPEYA S.A.</i>
+                <p>2015 - Actualmente</p>
+                <UL>
+                    <li>Conductor de camión.</li>
+                    <li>Venta de productos</li>
+                    <li>Entrega de pedidos con cobranzas.</li>
+                    <li>Preventista</li>
+                    <li>Armado de pedidos.</li>
+                    <li>Carga y descarga de mercadería.</li>
+                    <li>Control de stock.</li>
+                </UL>
+            <i class="fa-solid fa-briefcase"> CONFITERÍA RIVIERA - SALON ELEVE</i>
+               <p>2014-2015</p> 
+            <ul>
+                <li>Camarero eventual.</li>
+                <li>Atención al cliente.</li>
+            </ul>    
+        </article>
+        <article id="conocimientos">
+            <h2>CONOCIMENTOS</h2>
+            <i class="fa-solid fa-desktop"> ARMADO Y DESARME DE HARDWARE</i><br>
+            <i class="fa-solid fa-memory"> MANTENIMIENTO DE HARDWARE</i><br>
+            <i class="fa-brands fa-uncharted"> INSTALACION DE SOFTWARE, PROGRAMAS Y APLICACIONES</i><br>
+            <i class="fa-brands fa-microsoft"> MICROSOFT OFFICE</i><br>
+            <i class="fa-brands fa-css3"> CSS</i><br>
+            <i class="fa-brands fa-html5"> HTML</i><br>
+            <i class="fa-brands fa-square-js"> JavaScript</i><br>
+            <i class="fa-solid fa-language"> INGLES BASICO Y CATALAN</i><br>
+        </article>
+    </section>
+
+    <div id="contacto">
+
+        <form class="form" action="">
+            <label class="lbltexto"  for="nombre">
+                <span class="text-nomb">Nombre</span>
+            </label>
+            <input type="text" ><br>
+            <label class="lbltexto">
+                <span class="text-nomb">E-mail</span>
+            </label>
+            <input type="email" name="email"><br>
+            <label class="lbltexto" for="asunto">
+                <span class="text-nomb">Asunto</span>
+            </label>
+            <input type="text"><br>
+            <label class="lbltexto" for="text">
+                <span class="text-nomb">Mensaje</span>
+            </label>
+            <input id="mensaje" type="text"><br>
+            
+            
+        </form>
+        <input id="boton" type="submit"><br>
+
+        <div id="info">
+            <i class="fa-solid fa-calendar-days"> 30/06/1996</i><br>
+            <i class="fa-solid fa-phone"> 11 5501-5719</i><br>
+            <i class="fa-solid fa-envelope"> rodrigogarciacelleghin@gmail.com</i><br>
+            <i class="fa-sharp fa-solid fa-map-location-dot"> Moron-GBA</i><br>  
+        </div>
+    </div>
+
+    
+
+    <div class="boton-subir">
+       <i class="fa-solid fa-chevron-up "></i>
+    </div>
+
+
+    <footer>
+          
+        <p>Copyright © 2023 - Diseño Web realizado por Rodrigo Garcia </p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>
